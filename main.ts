@@ -3,7 +3,7 @@ input.onButtonPressed(Button.A, function () {
 })
 radio.setGroup(14)
 basic.forever(function () {
-    if (input.magneticForce(Dimension.Strength) < 200) {
+    if (input.magneticForce(Dimension.Strength) < 0) {
         basic.showLeds(`
             # . . . #
             . # . # .
